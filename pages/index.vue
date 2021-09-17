@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Nav />
     <div class="container">
       <Hero />
       <LargeCardDisplay
@@ -20,7 +19,6 @@
 <script>
 import { largeCardSections, smallCardSections } from "@/assets/data.js";
 export default {
-  layout: "default",
   data() {
     return {
       largeCardInfo: largeCardSections,
