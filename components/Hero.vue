@@ -3,7 +3,7 @@
         <div class="text-container">
             <h1 class="header">Find your Fire Extinguisher</h1>
             <p class="snippet">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste iusto illum quidem asperiores, cum nisi aperiam eius ipsa sapiente odit!</p>
-            <button class="button btn">Start Looking</button>
+            <NuxtLink :to="`/products/`" class="button btn">Start Looking</NuxtLink>
         </div>
         <div class="image" >
         <img  width="100%" src="~assets/svg/fire-extinguisher.svg" alt="fire extinguisher">
