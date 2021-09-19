@@ -12,10 +12,10 @@
 .go-back {
   color: rgb(231, 81, 43);
   font-weight: 700;
-  transition: 0.2s;
+  transition: 0.150s;
   text-decoration: none;
 }
 .go-back:hover {
-  color: rgb(255, 176, 157);
+  color: rgb(255, 174, 154);
 }
 </style>
